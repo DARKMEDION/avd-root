@@ -1,6 +1,8 @@
 # avd-root
 
-Get root permissions in Android Virtual Devices.
+Get root permissions in Android Device
+Not virtual
+
 
 ## Usage
 
@@ -11,6 +13,7 @@ emulator -list-avds
 ```
 
 Start the emulator with the name of AVD:
+
 
 ```sh
 emulator -avd "AVD_NAME_HERE" -selinux permissive
